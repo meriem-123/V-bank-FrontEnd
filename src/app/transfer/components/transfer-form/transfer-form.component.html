@@ -1,0 +1,46 @@
+<app-header></app-header>
+<div class="background">
+  <form [formGroup]="transferForm" (ngSubmit)="openDialog()">
+    <div class="container">
+      <div class="whiteForm">
+        <mat-grid-list cols="2" rowHeight="6:1" [gutterSize]="'20px'">
+          <mat-grid-tile>
+            <mat-form-field class="formField">
+              <mat-label>Envoyer à</mat-label>
+              <input
+                matInput
+                type="text"
+                formControlName="numero"
+                placeholder="Numéro du compte"
+              />
+              <mat-error *ngIf="accountNotFound">
+                Entrez un numero de compte valide.
+              </mat-error>
+            </mat-form-field>
+          </mat-grid-tile>
+
+          <mat-grid-tile>
+            <mat-form-field class="formField">
+              <mat-label>Somme</mat-label>
+              <input
+                matInput
+                type="text"
+                formControlName="somme"
+                placeholder="XX.XX"
+              />
+            </mat-form-field>
+          </mat-grid-tile>
+            
+          <mat-grid-tile>
+            <div class="envoyer" fxFlex fxLayoutAlign="flex-end">
+              <button type="submit" mat-raised-button color="primary" class="btn">
+                Envoyer
+              </button>
+            </div>
+          </mat-grid-tile>
+        </mat-grid-list>
+      </div>
+    </div>
+  </form>
+  
+</div>

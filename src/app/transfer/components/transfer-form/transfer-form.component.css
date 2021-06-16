@@ -1,0 +1,45 @@
+html,
+body,
+blockquote,
+code,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+pre {
+  margin: 2px;
+  padding: 2px;
+}
+.background {
+  height: 100%;
+  background-color: #141820;
+}
+
+.container {
+  padding: 2.5% 10%;
+  margin: 0 auto;
+}
+
+button {
+  margin-right: 50px;
+}
+.whiteForm {
+  background-color: #21252d;
+}
+.btn {
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+  font-weight: 900;
+  width: 200px !important;
+  min-width: unset !important;
+}
+mat-form-field {
+  width: 100%;
+  margin: 2.5%;
+}
+.envoyer {
+  padding: 2.5%;
+}

@@ -1,0 +1,22 @@
+<mat-toolbar class="headerr">
+  <mat-toolbar-row>
+    <span class="logo"> V-bank</span>
+    <div fxFlex fxLayout="row" fxLayoutAlign="center">
+      
+    </div>
+    <div fxFlex fxLayout="row" fxLayoutAlign="flex-end">
+      <ul fxLayout="row" fxLayoutGap="20px">
+        <li>
+          <button mat-button routerLink="/overview" class="btn">
+        Mes comptes
+      </button>
+      </li>
+      <li>
+          <button mat-button (click)="logOut()" class="btn">
+            Déconnexion
+          </button>
+        </li>
+      </ul>
+    </div>
+  </mat-toolbar-row>
+</mat-toolbar>

@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;900&display=swap");
+.part {
+}
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+.btn {
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+  font-weight: 900;
+  top: 40px;
+
+  width: 200px !important;
+  min-width: unset !important;
+  margin-top: 1rem;
+}
+
+.headline {
+  font-family: "Poppins", sans-serif;
+  font-size: 64px;
+  font-weight: 900;
+  padding: 130px 0 10px;
+}
+.part1 {
+  flex: 1.5;
+}
+.part2 {
+  flex: 1;
+}
+.sub-headline {
+  margin: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  font-weight: 100;
+  max-width: 500px;
+}
+.login-page {
+  color: rgba(255, 255, 255, 0.596);
+  padding: 3rem 3rem 0 3rem;
+  display: flex;
+  background-color: #141820;
+  height: 92.8vh;
+}
+.card {
+  text-align: center;
+  top: 20%;
+}
+mat-card {
+  width: 400px;
+  height: 300px;
+  background-color: #21252d;
+
+  text-align: center;
+  padding-left: 30px;
+}
+
+mat-form-field {
+  display: block;
+}
+mat-card-content {
+  color: rgba(255, 255, 255, 0.596);
+  font-family: "Poppins", sans serif;
+  font-weight: 900;
+}

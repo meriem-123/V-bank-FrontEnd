@@ -1,0 +1,53 @@
+.container {
+  padding: 2.5% 10%;
+  margin: 0 auto;
+}
+.background {
+  height: 100%;
+  background-color: #141820;
+}
+.content,
+.soustraction,
+.addition,
+td {
+  background-color: #21252d;
+}
+mat-tab-group {
+  margin-right: 1%;
+}
+.menu {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #3f51b5;
+}
+mat-tab {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: rgba(255, 255, 255, 0.596);
+}
+.title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: rgba(255, 255, 255, 0.596);
+}
+table {
+  width: 100%;
+  background-color: #21252d;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: rgba(255, 255, 255, 0.596);
+}
+.soustraction {
+  color: red;
+}
+.addition {
+  color: green;
+}
